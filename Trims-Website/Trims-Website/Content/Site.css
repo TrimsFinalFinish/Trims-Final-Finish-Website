@@ -1,12 +1,12 @@
 ﻿html {
-    background-color: #e2e2e2;
+    background-color: #336714;
     margin: 0;
     padding: 0;
 }
 
 body {
     background-color: #fff;
-    border-top: solid 10px #000;
+    border-top: solid 10px #336714;
     color: #333;
     font-size: .85em;
     font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
@@ -328,58 +328,6 @@ aside {
     font-weight: 700;
 }
 
-/* login page */
-#loginForm {
-    border-right: solid 2px #c8c8c8;
-    float: left;
-    width: 55%;
-}
-
-    #loginForm .validation-error {
-        display: block;
-        margin-left: 15px;
-    }
-
-    #loginForm .validation-summary-errors ul {
-        margin: 0;
-        padding: 0;
-    }
-
-    #loginForm .validation-summary-errors li {
-        display: inline;
-        list-style: none;
-        margin: 0;
-    }
-
-    #loginForm input {
-        width: 250px;
-    }
-
-    #loginForm input[type="checkbox"],
-    #loginForm input[type="submit"],
-    #loginForm input[type="button"],
-    #loginForm button {
-        width: auto;
-    }
-
-#socialLoginForm {
-    margin-left: 40px;
-    float: left;
-    width: 40%;
-}
-
-    #socialLoginForm h2 {
-        margin-bottom:  5px;
-    }
-
-#socialLoginList button {
-    margin-bottom: 12px;
-}
-
-#logoutForm {
-    display: inline;
-}
-
 /* contact */
 .contact h3 {
     font-size: 1.2em;
@@ -605,37 +553,6 @@ tr.pager td {
         text-align: center;
     }
 
-    /* login */
-    #login {
-        font-size: .85em;
-        margin: 0 0 12px;
-        text-align: center;
-    }
-
-        #login ul {
-            margin: 5px 0;
-            padding: 0;
-        }
-
-        #login li {
-            display: inline;
-            list-style: none;
-            margin: 0;
-            padding: 0;
-        }
-
-        #login a {
-            background: none;
-            color: #999;
-            font-weight: 600;
-            margin: 2px;
-            padding: 0;
-        }
-
-        #login a:hover {
-            color: #333;
-        }
-
     /* menu */
     nav {
         margin-bottom: 5px;
@@ -718,25 +635,6 @@ tr.pager td {
         width: 90%;
     }
 
-    /* login page */
-    #loginForm {
-        border-right: none;
-        float: none;
-        width: auto;
-    }
-
-        #loginForm .validation-error {
-            display: block;
-            margin-left: 15px;
-        }
-
-    #socialLoginForm {
-        margin-left: 0;
-        float: none;
-        width: auto;
-    }
-
-
     /* footer
     ----------------------------------------------------------*/
     footer .float-left,
@@ -753,4 +651,28 @@ tr.pager td {
         footer p {
             margin: 0;
         }
+
+}
+
+/* image gallary
+    ----------------------------------------------------------*/
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+div.desc {
+    padding: 15px;
+    text-align: center;
 }

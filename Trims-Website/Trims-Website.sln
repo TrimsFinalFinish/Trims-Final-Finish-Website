@@ -21,6 +21,7 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Trims-Website(2)", "Trims-W
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "59025"
+		SlnRelativePath = "Trims-Website\"
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
